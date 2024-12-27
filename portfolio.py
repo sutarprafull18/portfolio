@@ -5,7 +5,7 @@ from PIL import Image
 # Setting the page title and icon
 st.set_page_config(page_title="Prafull Sutar's Portfolio", page_icon="💻")
 
-background_image_url = "./bi.png"  # Ensure the path is correct based on where your file is
+background_image_url = "bi.png"  # Ensure the path is correct based on where your file is
 
 # Add custom CSS for styling
 st.markdown(
@@ -68,7 +68,7 @@ with col1:
 
 # Display image in the second column
 with col2:
-    image = Image.open("pic.png")  # Load the image (ensure it's in the same directory)
+    image = Image.open("my.png")  # Load the image (ensure it's in the same directory)
     st.image(image, width=120, caption="Prafull Sutar", use_container_width=True)
 
 st.markdown(
