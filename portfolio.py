@@ -82,7 +82,7 @@ st.subheader("Contact Information")
 st.markdown(
     """
     <div class="contact-icons">
-        <p>📞 **Phone**: +91-9420709230</p>
+        <p>📞 **Phone**: +91-1234567890</p>
         <p>📧 **Email**: Sutarprafull18@gmail.com</p>
         <p>📍 **Location**: Pune, India</p>
     </div>
